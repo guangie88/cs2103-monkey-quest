@@ -1,0 +1,222 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{CE2CFC61-F462-4F1D-9398-DB2C68AF5C1F}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MonkeyQuest</RootNamespace>
+    <AssemblyName>MonkeyQuest</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="System" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Images\rocket1.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Images\rocket2.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Images\Crab.png" />
+    <None Include="Resources\Images\Octopus.png" />
+    <None Include="Resources\Images\Spider.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <Content Include="Resources\Sfx\explosion.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Sfx\weapon_homing.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Resource Include="Resources\Fonts\HURRYUP.TTF">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <None Include="Resources\Images\TortoiseLeft.png" />
+    <None Include="Resources\Images\Spike.png" />
+    <None Include="Resources\Images\SpikeCeiling.png" />
+    <Content Include="Resources\Maps\CollisionTestMap.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Maps\Level3.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Maps\Level2.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Maps\Level10.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Maps\Level9.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Maps\Level5.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Maps\Level7.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Maps\Level6.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Maps\DoorTestMap.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Maps\Level1.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Maps\Level4.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Maps\Level8.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Maps\Test.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Maps\CrateTestMap.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Sfx\Banana Take.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Sfx\Crate Move.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Sfx\die.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Sfx\Door Open.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Sfx\Enemy Killed.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Sfx\gaga.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Sfx\Jump.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Sfx\pacman.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\MonkeyQuestIcon.ico">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Music\Monkey Quest.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Framework\Logic\AI.cs" />
+    <Compile Include="Framework\Logic\Board.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Framework\Logic\Collidable.cs" />
+    <Compile Include="Framework\Logic\Controllable.cs" />
+    <Compile Include="Framework\Logic\Weapon.cs" />
+    <Compile Include="Framework\UI\MainBarUI.cs" />
+    <Compile Include="Framework\UI\MovableAnimatedUI.cs" />
+    <Compile Include="Framework\Utility\Values.cs" />
+    <Compile Include="MonkeyQuest\Logic\MonkeyBoard.cs" />
+    <Compile Include="MonkeyQuest\Logic\MonkeyBoardPackage.cs" />
+    <Compile Include="MonkeyQuest\Logic\MonkeyQuestAI.cs" />
+    <Compile Include="MonkeyQuest\Logic\MonkeyQuestStubElements.cs" />
+    <Compile Include="MonkeyQuest\Logic\MonkeyQuestWeapon.cs" />
+    <Compile Include="MonkeyQuest\Logic\Tile.cs" />
+    <Compile Include="Framework\Utility\Acceleration.cs" />
+    <Compile Include="Framework\Utility\CollisionManager.cs" />
+    <Compile Include="Framework\Utility\IMovement.cs" />
+    <Compile Include="Framework\Utility\Movements.cs" />
+    <Compile Include="Framework\Utility\RectangularMask.cs" />
+    <Compile Include="Framework\Utility\RegionTemplate.cs" />
+    <Compile Include="Framework\Utility\Delegates.cs" />
+    <Compile Include="Framework\Utility\Exceptions.cs" />
+    <Compile Include="Framework\Logic\Movable.cs" />
+    <Compile Include="Framework\Logic\Positional.cs" />
+    <Compile Include="Framework\Utility\Position.cs" />
+    <Compile Include="Framework\Utility\Timer.cs" />
+    <Compile Include="Framework\Utility\TypeComparer.cs" />
+    <Compile Include="Framework\Utility\Velocity.cs" />
+    <Compile Include="MonkeyQuest\Logic\MonkeyQuestElements.cs" />
+    <Compile Include="MonkeyQuest\Logic\XMLMap.cs" />
+    <Compile Include="MonkeyQuest\UI\DoorUI.cs" />
+    <Compile Include="MonkeyQuest\UI\MonkeyQuestStubElementsUI.cs" />
+    <Compile Include="MonkeyQuest\UI\TileUI.cs" />
+    <Compile Include="MonkeyQuest\UI\MonkeyMainBarUI.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\Images.cs" />
+    <Compile Include="Framework\UI\BoardUI.cs" />
+    <Compile Include="MonkeyQuest\UI\MonkeyBoardUI.cs" />
+    <Compile Include="MonkeyQuest\UI\MonkeyBoardUIWindow.cs" />
+    <Compile Include="Framework\UI\ControllableAnimatedUI.cs" />
+    <Compile Include="Framework\UI\PositionalAnimatedUI.cs" />
+    <Compile Include="Framework\UI\PositionalUI.cs" />
+    <Compile Include="Framework\Images\AnimatedImage.cs" />
+    <Compile Include="Framework\Images\ControllableAnimatedImage.cs" />
+    <Compile Include="Framework\Utility\LogicUICreator.cs" />
+    <Compile Include="MonkeyQuest\UI\MonkeyQuestElementsUI.cs" />
+    <Compile Include="Resources\Utility\ImageManager.cs" />
+    <Compile Include="Test\TestPackage.cs" />
+    <Compile Include="Test\TestUIWindow.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="MonkeyQuestHierarchy.cd" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

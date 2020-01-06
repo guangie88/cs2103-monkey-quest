@@ -1,0 +1,400 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Banana" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\Banana.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Banana1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\Banana1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BlackTile" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\BlackTile.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BlueMoon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\BlueMoon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Crab" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\Crab.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Crate" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\Crate.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DoorClose" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\DoorClose.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DoorOpen" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\DoorOpen.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EyeBanana1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\EyeBanana1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EyeBanana2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\EyeBanana2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EyeBanana3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\EyeBanana3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EyeBanana4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\EyeBanana4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ForestBackground" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\ForestBackground.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ghost1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\ghost1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ghost2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\ghost2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Goomba1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\goomba1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Goomba2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\goomba2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GrassTile" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\GrassTile.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GrassTile00000000" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\GrassTile00000000.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GrassTile00000001" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\GrassTile00000001.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GrassTile00000010" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\GrassTile00000010.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GrassTile00000011" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\GrassTile00000011.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GrassTile00010000" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\GrassTile00010000.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GrassTile00010010" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\GrassTile00010010.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GrassTile00100000" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\GrassTile00100000.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GrassTile00110000" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\GrassTile00110000.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GrassTile01000000" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\GrassTile01000000.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GrassTile01000001" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\GrassTile01000001.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GrassTile01010000" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\GrassTile01010000.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GrassTile01100000" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\GrassTile01100000.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GrassTile01110000" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\GrassTile01110000.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Heart" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\Heart.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MarioBlock" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\MarioBlock.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MarioFlying" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\MarioFlying.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MarioStar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\MarioStar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Monkey" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\Monkey.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MonkeyMoveLeft" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\MonkeyMoveLeft.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MonkeyMoveRight" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\MonkeyMoveRight.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MonkeyQuestIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\MonkeyQuestIcon.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Monster" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\monster.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MudTile00000000" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\MudTile00000000.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MudTile00000001" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\MudTile00000001.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MudTile00000010" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\MudTile00000010.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MudTile00000011" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\MudTile00000011.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MudTile00000100" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\MudTile00000100.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MudTile00000110" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\MudTile00000110.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MudTile00000111" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\MudTile00000111.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MudTile00001000" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\MudTile00001000.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MudTile00001011" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\MudTile00001011.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MudTile00001100" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\MudTile00001100.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MudTile00001101" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\MudTile00001101.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MudTile00001110" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\MudTile00001110.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MudTile00001111" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\MudTile00001111.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MudTile00010000" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\MudTile00010000.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MudTile00010010" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\MudTile00010010.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MudTile00010100" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\MudTile00010100.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MudTile00010110" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\MudTile00010110.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MudTile00100000" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\MudTile00100000.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MudTile00100100" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\MudTile00100100.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MudTile00101000" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\MudTile00101000.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MudTile00101100" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\MudTile00101100.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MudTile00110000" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\MudTile00110000.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MudTile00110100" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\MudTile00110100.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MudTile01000000" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\MudTile01000000.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MudTile01000001" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\MudTile01000001.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MudTile01001000" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\MudTile01001000.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MudTile01001001" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\MudTile01001001.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MudTile01010000" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\MudTile01010000.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MudTile01100000" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\MudTile01100000.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MudTile01101000" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\MudTile01101000.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MudTile01110000" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\MudTile01110000.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MudTile10000000" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\MudTile10000000.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MudTile10000001" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\MudTile10000001.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MudTile10000010" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\MudTile10000010.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MudTile10000011" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\MudTile10000011.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MudTile10010000" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\MudTile10010000.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MudTile10100000" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\MudTile10100000.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MudTile10110000" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\MudTile10110000.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MudTile11000000" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\MudTile11000000.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MudTile11010000" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\MudTile11010000.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MudTile11100000" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\MudTile11100000.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MudTile11110000" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\MudTile11110000.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NatureForest" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\NatureForest.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Octopus" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\Octopus.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Rocket1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\rocket1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Rocket2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\rocket2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Spider" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\Spider.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Spike" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\Spike.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SpikeCeiling" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\SpikeCeiling.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Star" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\Star.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Stub" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\Stub.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Tortoise" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\Tortoise.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TortoiseLeft" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\TortoiseLeft.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>

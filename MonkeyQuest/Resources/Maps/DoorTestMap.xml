@@ -1,0 +1,7 @@
+﻿<map rows="9" columns="16">
+  <static identifier="monkey" x="0" y="8" />
+  <static identifier="door" x="6" y="8" />
+  <tile type="banana" x="8" y="8" />
+	<tile type="banana" x="4" y="8" />
+  <static identifier="goomba" x="13" y="1" />
+</map>

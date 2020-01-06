@@ -1,0 +1,83 @@
+<!-- Main Contributors: Frank -->
+<map rows="9" columns="16" time="120">
+	<static identifier="monkey" x="1" y="4" />
+	<static identifier="door" x="15" y="6" />
+	<static identifier="goomba" x="13" y="1" />
+	<static identifier="ghost" x="7" y="7" />
+	<static identifier="gaga" x="3" y="0" />
+	
+	<tile type="crate" x="4" y="0" />
+	<tile type="crate" x="6" y="2" />
+	<tile type="crate" x="6" y="3" />
+	<tile type="crate" x="6" y="4" />
+	<tile type="crate" x="6" y="5" />
+	<tile type="crate" x="14" y="3" />
+	<tile type="crate" x="13" y="4" />
+	<tile type="crate" x="14" y="4" />
+	<tile type="crate" x="13" y="5" />
+
+	<tile type="banana" x="4" y="5" />
+	<tile type="banana" x="8" y="5" />
+	<tile type="banana" x="5" y="7" />
+	<tile type="banana" x="11" y="5" />
+	<tile type="banana" x="14" y="2" />
+	
+	<tile type="mud" property="00000000" x="15" y="8" />
+	<tile type="mud" property="00001111" x="3" y="4" />
+	<tile type="mud" property="01001001" x="3" y="2" />
+	<tile type="mud" property="01000000" x="0" y="0" />
+	<tile type="mud" property="01100000" x="0" y="1" />
+	<tile type="mud" property="01101000" x="5" y="4" />
+	<tile type="mud" property="01101000" x="12" y="6" />
+	<tile type="mud" property="01010000" x="3" y="5" />
+	<tile type="mud" property="01010000" x="3" y="3" />
+	<tile type="mud" property="01010000" x="7" y="2" />
+	<tile type="mud" property="01010000" x="7" y="4" />
+	<tile type="mud" property="01010000" x="7" y="5" />
+	<tile type="mud" property="01010000" x="10" y="3" />
+	<tile type="mud" property="01010000" x="10" y="4" />
+	<tile type="mud" property="01010000" x="10" y="5" />
+	<tile type="mud" property="01110000" x="13" y="3" />
+	<tile type="mud" property="00101100" x="3" y="6" />
+	<tile type="mud" property="00101100" x="7" y="6" />
+	<tile type="mud" property="00101100" x="10" y="6" />
+	<tile type="mud" property="00010110" x="7" y="3" />
+
+	<tile type="grass" property="00000000" x="14" y="8" />
+	<tile type="grass" property="00000000" x="13" y="8" />
+	<tile type="grass" property="00000000" x="12" y="8" />
+	<tile type="grass" property="00000000" x="11" y="8" />
+	<tile type="grass" property="00000000" x="10" y="8" />
+	<tile type="grass" property="00000000" x="9" y="8" />
+	<tile type="grass" property="00000000" x="8" y="8" />
+	<tile type="grass" property="00000000" x="7" y="8" />
+	<tile type="grass" property="00000000" x="6" y="8" />
+	<tile type="grass" property="00000000" x="5" y="8" />
+	<tile type="grass" property="00000000" x="4" y="8" />
+	<tile type="grass" property="00000000" x="3" y="8" />
+	<tile type="grass" property="00000000" x="2" y="8" />
+	<tile type="grass" property="00000000" x="1" y="8" />
+	<tile type="grass" property="00000000" x="0" y="8" />
+	<tile type="grass" property="00010000" x="15" y="7" />
+	<tile type="grass" property="00010010" x="3" y="1" />
+	<tile type="grass" property="00100000" x="8" y="6" />
+	<tile type="grass" property="00100000" x="9" y="6" />
+	<tile type="grass" property="00100000" x="11" y="6" />
+	<tile type="grass" property="00100000" x="15" y="5" />
+	<tile type="grass" property="00100000" x="4" y="4" />
+	<tile type="grass" property="01010000" x="7" y="1" />
+	<tile type="grass" property="01010000" x="10" y="2" />
+	<tile type="grass" property="01010000" x="13" y="2" />
+	<tile type="grass" property="01010000" x="5" y="3" />
+	<tile type="grass" property="01010000" x="12" y="5" />
+	<tile type="grass" property="01100000" x="0" y="3" />
+	<tile type="grass" property="01100000" x="0" y="5" />
+	<tile type="grass" property="01100000" x="4" y="1" />
+	<tile type="grass" property="01100000" x="4" y="6" />
+	<tile type="grass" property="01100000" x="8" y="3" />
+	<tile type="grass" property="00110000" x="2" y="2" />
+	<tile type="grass" property="00110000" x="2" y="4" />
+	<tile type="grass" property="00110000" x="2" y="6" />
+	<tile type="grass" property="00110000" x="6" y="6" />
+	<tile type="grass" property="00110000" x="14" y="5" />
+</map>

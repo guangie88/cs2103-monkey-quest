@@ -1,0 +1,64 @@
+﻿<map rows="9" columns="16" time="300">
+  <!--<static identifier="monkey" x="1" y="8" />-->
+
+  <!--<tile type="grass" property="01000000" x="0" y="8" />-->
+  <!--<static identifier="door" x="0" y="7" />-->
+  <!--<static identifier="door" x="0" y="8" />-->
+
+
+  <tile type="crate" x="0" y="7" />
+  <tile type="crate" x="1" y="6" />
+  <tile type="crate" x="1" y="7" />
+  <tile type="crate" x="2" y="7" />
+  <tile type="crate" x="3" y="6" />
+  <tile type="crate" x="3" y="7" />
+  <tile type="crate" x="4" y="7" />
+  <tile type="crate" x="5" y="6" />
+  <tile type="crate" x="5" y="7" />
+  <tile type="crate" x="6" y="7" />
+  <tile type="crate" x="7" y="6" />
+  <tile type="crate" x="7" y="7" />
+  <tile type="crate" x="8" y="7" />
+  <tile type="crate" x="9" y="6" />
+  <tile type="crate" x="9" y="7" />
+  <tile type="crate" x="10" y="7" />
+  <tile type="crate" x="11" y="6" />
+  <tile type="crate" x="11" y="7" />
+  <tile type="crate" x="12" y="7" />
+  <tile type="crate" x="13" y="6" />
+  <tile type="crate" x="13" y="7" />
+  <tile type="crate" x="14" y="7" />
+  <tile type="crate" x="15" y="7" />
+
+
+  <tile type="crate" x="0" y="0" />
+  <tile type="crate" x="1" y="0" />
+  <tile type="crate" x="2" y="0" />
+  <tile type="crate" x="3" y="0" />
+  <tile type="crate" x="4" y="0" />
+  <static identifier="goomba" x="0" y="2" />
+  <static identifier="goomba" x="1" y="3" />
+  <tile type="banana" x="1" y="1" />
+  <static identifier="goomba" x="2" y="1" />
+  <tile type="banana" x="3" y="1" />
+  <static identifier="goomba" x="3" y="2" />
+  <static identifier="goomba" x="4" y="2" />
+  <tile type="crate" x="5" y="1" />
+  <tile type="crate" x="6" y="3" />
+  <tile type="crate" x="7" y="2" />
+  <tile type="crate" x="8" y="1" />
+  <tile type="crate" x="9" y="4" />
+  <tile type="crate" x="10" y="2" />
+  <static identifier="gaga" x="11" y="3" />
+  <static identifier="gaga" x="12" y="2" />
+  <tile type="banana" x="12" y="1" />
+  <static identifier="gaga" x="13" y="4" />
+  <static identifier="gaga" x="14" y="2" />
+  <tile type="banana" x="14" y="1" />
+  <static identifier="gaga" x="15" y="2" />
+  <tile type="crate" x="11" y="0" />
+  <tile type="crate" x="12" y="0" />
+  <tile type="crate" x="13" y="0" />
+  <tile type="crate" x="14" y="0" />
+  <tile type="crate" x="15" y="0" />
+</map>

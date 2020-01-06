@@ -1,0 +1,49 @@
+﻿<map rows="9" columns="16" time="90">
+  <static identifier="monkey" x="1" y="8" />
+
+  <tile type="grass" property="01000000" x="0" y="8" />
+  <static identifier="door" x="0" y="7" />
+
+  <tile type="crate" x="3" y="8" />
+
+  <tile type="crate" x="5" y="8" />
+  <tile type="crate" x="5" y="7" />
+
+  <tile type="crate" x="7" y="8" />
+  <tile type="crate" x="7" y="7" />
+  <tile type="crate" x="7" y="6" />
+
+  <tile type="crate" x="9" y="8" />
+  <tile type="crate" x="9" y="7" />
+  <tile type="crate" x="9" y="6" />
+  <tile type="crate" x="9" y="5" />
+
+  <tile type="crate" x="11" y="8" />
+  <tile type="crate" x="11" y="7" />
+  <tile type="crate" x="11" y="6" />
+  <tile type="crate" x="11" y="5" />
+  <tile type="crate" x="11" y="4" />
+
+  <tile type="crate" x="13" y="8" />
+  <tile type="crate" x="13" y="7" />
+  <tile type="crate" x="13" y="6" />
+  <tile type="crate" x="13" y="5" />
+  <tile type="crate" x="13" y="4" />
+  <tile type="crate" x="13" y="3" />
+
+  <tile type="crate" x="15" y="8" />
+  <tile type="crate" x="15" y="7" />
+  <tile type="crate" x="15" y="6" />
+  <tile type="crate" x="15" y="5" />
+  <tile type="crate" x="15" y="4" />
+  <tile type="crate" x="15" y="3" />
+  <tile type="crate" x="15" y="2" />
+
+  <tile type="banana" x="3" y="6" />
+  <tile type="banana" x="5" y="5" />
+  <tile type="banana" x="7" y="4" />
+  <tile type="banana" x="9" y="3" />
+  <tile type="banana" x="11" y="2" />
+  <tile type="banana" x="13" y="1" />
+  <tile type="banana" x="15" y="0" />
+</map>

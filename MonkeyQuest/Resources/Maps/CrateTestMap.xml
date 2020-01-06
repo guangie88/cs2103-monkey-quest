@@ -1,0 +1,15 @@
+﻿<map rows="9" columns="16" time="300">
+  <static identifier="monkey" x="4" y="8" />
+  <static identifier="goomba" x="8" y="8" />
+
+  <tile type="crate" x="5" y="8" />
+  <tile type="crate" x="10" y="8" />
+
+  <tile type="grass" property="01000000" x="4" y="7" />
+  <tile type="grass" property="01000000" x="5" y="7" />
+  <tile type="grass" property="01000000" x="6" y="7" />
+  <tile type="grass" property="01000000" x="7" y="7" />
+  <tile type="grass" property="01000000" x="8" y="7" />
+  <tile type="grass" property="01000000" x="9" y="7" />
+  <tile type="grass" property="01000000" x="10" y="7" />
+</map>

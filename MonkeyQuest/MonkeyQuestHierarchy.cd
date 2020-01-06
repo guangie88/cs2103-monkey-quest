@@ -1,0 +1,746 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="MonkeyQuest.Framework.Images.AnimatedImage" Collapsed="true">
+    <Position X="6.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAKDAAAEggAAAAAAAQABBABAAAAAYAAgAAAAAAAAAAA=</HashCode>
+      <FileName>Framework\Images\AnimatedImage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MonkeyQuest.Framework.Images.ImageFrames" Collapsed="true">
+    <Position X="28.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgABAAAAAQAAAEAAAABAAAAAAAACAAAA=</HashCode>
+      <FileName>Framework\Images\AnimatedImage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MonkeyQuest.Framework.Images.MovableAnimatedImage" Collapsed="true">
+    <Position X="5.5" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAgAAAAAAAAAAAAAAAAAAAAAACACAAAAAAAA=</HashCode>
+      <FileName>Framework\Images\AnimatedImage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MonkeyQuest.Framework.Images.ControllableAnimatedImage" Collapsed="true">
+    <Position X="7.75" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAgAAAAAAAAQAAAAEAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Framework\Images\ControllableAnimatedImage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MonkeyQuest.Framework.Images.ControllableImageFrames" Collapsed="true">
+    <Position X="35.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgBAAAIAQAAAEAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>Framework\Images\ControllableAnimatedImage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MonkeyQuest.Framework.Logic.AI" Collapsed="true">
+    <Position X="16.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAAAAAAAAAAAAQAAQAEAACAAAAAIAAAA=</HashCode>
+      <FileName>Framework\Logic\AI.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MonkeyQuest.Framework.Logic.CollisionEventArgs" Collapsed="true">
+    <Position X="31.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAIAAAACAAAAAAAAAAAAAAAEAAAABAAAA=</HashCode>
+      <FileName>Framework\Logic\AI.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MonkeyQuest.Framework.Logic.Board" Collapsed="true">
+    <Position X="4.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AlQgAIAAACAEkFYgAIBQBCBAIKRASIAADAKAQgjEoAA=</HashCode>
+      <FileName>Framework\Logic\Board.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MonkeyQuest.Framework.Logic.BoardResizeEventArgs" Collapsed="true">
+    <Position X="35.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Framework\Logic\Board.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MonkeyQuest.Framework.Logic.PositionalEventArgs" Collapsed="true">
+    <Position X="35.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAIAAAAAAAAA=</HashCode>
+      <FileName>Framework\Logic\Board.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MonkeyQuest.Framework.Logic.BoardKeyEventArgs" Collapsed="true">
+    <Position X="31.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAIAAAQCCAAAA=</HashCode>
+      <FileName>Framework\Logic\Board.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MonkeyQuest.Framework.Logic.Collidable" Collapsed="true">
+    <Position X="12.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAEIQCAACgBAQIAAAAAAyAAAAgAACQAAAA=</HashCode>
+      <FileName>Framework\Logic\Collidable.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MonkeyQuest.Framework.Logic.Controllable" Collapsed="true">
+    <Position X="10.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAA=</HashCode>
+      <FileName>Framework\Logic\Controllable.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MonkeyQuest.Framework.Logic.Movable" Collapsed="true">
+    <Position X="14" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAQEAAAABAIAAAAAAgAJAQEAAARAAAwkACAEAAA=</HashCode>
+      <FileName>Framework\Logic\Movable.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MonkeyQuest.Framework.Logic.CollidableProximity" Collapsed="true">
+    <Position X="28.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAIAAAAKAAAACAAAAAAAAA=</HashCode>
+      <FileName>Framework\Logic\Movable.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MonkeyQuest.Framework.Logic.CollidableProximitySorter" Collapsed="true">
+    <Position X="30" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Framework\Logic\Movable.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MonkeyQuest.Framework.Logic.MovableEventArgs" Collapsed="true">
+    <Position X="31.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Framework\Logic\Movable.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MonkeyQuest.Framework.Logic.Positional" Collapsed="true">
+    <Position X="12.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAIAiAAAAIABAAAABAkAAICBAACAAYAA=</HashCode>
+      <FileName>Framework\Logic\Positional.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MonkeyQuest.Framework.Logic.PositionsEventArgs" Collapsed="true">
+    <Position X="30" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIABAACAAAADAAEAAAAAACAAAAAgCAAAIAMAAAAAA=</HashCode>
+      <FileName>Framework\Logic\Positional.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MonkeyQuest.Framework.UI.BoardUI" Collapsed="true">
+    <Position X="9.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BgAAAgCAAEAIAgDAIEAoAEQAQBAAAAAAIAAAAmAgEgA=</HashCode>
+      <FileName>Framework\UI\BoardUI.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MonkeyQuest.Framework.UI.BoardColumnRowValueConverter" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="28.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAIAAAAAAAAAIAAAAAAAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Framework\UI\BoardUI.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="MonkeyQuest.Framework.UI.BoardUIResizeEventArgs" Collapsed="true">
+    <Position X="26.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAQAAAAEAAAAAIgAAACIAAAAAAAA=</HashCode>
+      <FileName>Framework\UI\BoardUI.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MonkeyQuest.Framework.UI.ControllableAnimatedUI&lt;TControllable, TControllableAnimatedImage&gt;" Collapsed="true">
+    <Position X="10.5" Y="14.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAA=</HashCode>
+      <FileName>Framework\UI\ControllableAnimatedUI.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MonkeyQuest.Framework.UI.MainBarUI" Collapsed="true">
+    <Position X="0.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAIAABAAEAAAAAAAAAAAAAAIAAAACAAAAA=</HashCode>
+      <FileName>Framework\UI\MainBarUI.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MonkeyQuest.Framework.UI.MovableAnimatedUI&lt;TMovable, TMovableAnimatedImage&gt;" Collapsed="true">
+    <Position X="15" Y="14.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAIAAAAAA=</HashCode>
+      <FileName>Framework\UI\MovableAnimatedUI.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MonkeyQuest.Framework.UI.PositionalAnimatedUI&lt;TPositional, TAnimatedImage&gt;" Collapsed="true">
+    <Position X="15" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAIAAAAAA=</HashCode>
+      <FileName>Framework\UI\PositionalAnimatedUI.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MonkeyQuest.Framework.UI.PositionalUI" Collapsed="true">
+    <Position X="11.5" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAIAAAAAAABAAQAQAAEAEADgCAAIQAgQAA=</HashCode>
+      <FileName>Framework\UI\PositionalUI.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MonkeyQuest.Framework.UI.PositionalUI&lt;TPositional, TImage&gt;" Collapsed="true">
+    <Position X="12.75" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAACAAAAAAAAA=</HashCode>
+      <FileName>Framework\UI\PositionalUI.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MonkeyQuest.Framework.Utility.CollisionManager" Collapsed="true">
+    <Position X="33.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Framework\Utility\CollisionManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MonkeyQuest.Framework.Utility.BoardProportionException" Collapsed="true">
+    <Position X="33.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAQAAAAEAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Framework\Utility\Exceptions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MonkeyQuest.Framework.Utility.BoardInvalidColumnsRowsException" Collapsed="true">
+    <Position X="30" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAEAAAABAAAEAAAAAAAAACAAAAAgAIAA=</HashCode>
+      <FileName>Framework\Utility\Exceptions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MonkeyQuest.Framework.Utility.PositionFinenessExceedLimitException" Collapsed="true">
+    <Position X="28.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAQAAAAAAAAAAAAAAAAAAAAAEAAAABAAAAAAAA=</HashCode>
+      <FileName>Framework\Utility\Exceptions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MonkeyQuest.Framework.Utility.PositionFinenessConflictException" Collapsed="true">
+    <Position X="26.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAEAAAAAAAAAAAAAAAAAAAEAAAAAAAAAEAAAA=</HashCode>
+      <FileName>Framework\Utility\Exceptions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MonkeyQuest.Framework.Utility.LogicUICreatorManager" Collapsed="true">
+    <Position X="35.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAIAAAAKAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Framework\Utility\LogicUICreator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MonkeyQuest.Framework.Utility.Gravity" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="26.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAEAAEABAABAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Framework\Utility\Movements.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="MonkeyQuest.Framework.Utility.MoveLeftRight" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="33.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAAABAAAAAFAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Framework\Utility\Movements.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="MonkeyQuest.Framework.Utility.SlideLeftRight" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="35.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAAAQAAAAEAAAABAIAAAFAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Framework\Utility\Movements.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="MonkeyQuest.Framework.Utility.Jump" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="33.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAAABAAAIAEAACAAAAAAAAAAAA=</HashCode>
+      <FileName>Framework\Utility\Movements.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="MonkeyQuest.Framework.Utility.ReboundOffWall" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="31.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAEICAABAAAQAEAgEAAAAAAAAACAA=</HashCode>
+      <FileName>Framework\Utility\Movements.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="MonkeyQuest.Framework.Utility.TypeComparer" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="33.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAiAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAA=</HashCode>
+      <FileName>Framework\Utility\TypeComparer.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Multimedia.Timer" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="30" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AiIAgAAAEKYAgyLAAIIAQCIAAAogDCAAIQQAAgADQAY=</HashCode>
+      <FileName>Framework\Utility\Timer.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Multimedia.TimerStartException" Collapsed="true">
+    <Position X="31.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Framework\Utility\Timer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MonkeyQuest.MonkeyQuest.Logic.MonkeyBoard" Collapsed="true">
+    <Position X="4.5" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQIAAAAAFQAgAAAABAMACAyAAACAQAAAAAAAAQoEA=</HashCode>
+      <FileName>MonkeyQuest\Logic\MonkeyBoard.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MonkeyQuest.MonkeyQuest.Logic.BananasEventArgs" Collapsed="true">
+    <Position X="26.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAEAAACBAAAAgAAAAAAAAAAAA=</HashCode>
+      <FileName>MonkeyQuest\Logic\MonkeyBoard.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MonkeyQuest.MonkeyQuest.Logic.MonkeyLivesEventArgs" Collapsed="true">
+    <Position X="30" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAIAAAACAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MonkeyQuest\Logic\MonkeyBoard.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MonkeyQuest.MonkeyQuest.Logic.NonMovingAI" Collapsed="true">
+    <Position X="16.25" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAACAAAAAAAAAA=</HashCode>
+      <FileName>MonkeyQuest\Logic\MonkeyQuestAI.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MonkeyQuest.MonkeyQuest.Logic.BasicMovingAI" Collapsed="true">
+    <Position X="15" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAACAAAAAAAAAA=</HashCode>
+      <FileName>MonkeyQuest\Logic\MonkeyQuestAI.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MonkeyQuest.MonkeyQuest.Logic.BorderTile" Collapsed="true">
+    <Position X="21.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAA=</HashCode>
+      <FileName>MonkeyQuest\Logic\MonkeyQuestElements.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MonkeyQuest.MonkeyQuest.Logic.MonkeyBlock" Collapsed="true">
+    <Position X="24" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MonkeyQuest\Logic\MonkeyQuestElements.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MonkeyQuest.MonkeyQuest.Logic.Tortoise" Collapsed="true">
+    <Position X="19.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MonkeyQuest\Logic\MonkeyQuestElements.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MonkeyQuest.MonkeyQuest.Logic.Gaga" Collapsed="true">
+    <Position X="12.75" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MonkeyQuest\Logic\MonkeyQuestElements.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MonkeyQuest.MonkeyQuest.Logic.Ghost" Collapsed="true">
+    <Position X="15" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MonkeyQuest\Logic\MonkeyQuestElements.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MonkeyQuest.MonkeyQuest.Logic.Goomba" Collapsed="true">
+    <Position X="17.25" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MonkeyQuest\Logic\MonkeyQuestElements.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MonkeyQuest.MonkeyQuest.Logic.Monkey" Collapsed="true">
+    <Position X="10.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>JAAQAAYAAAUEJkIQACsECiIAAIgAACQgAAAEAAACCAA=</HashCode>
+      <FileName>MonkeyQuest\Logic\MonkeyQuestElements.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MonkeyQuest.MonkeyQuest.Logic.Banana" Collapsed="true">
+    <Position X="1.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MonkeyQuest\Logic\MonkeyQuestElements.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MonkeyQuest.MonkeyQuest.Logic.Crate" Collapsed="true">
+    <Position X="8.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABQAgBAABIAQABAAAAIAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MonkeyQuest\Logic\MonkeyQuestElements.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MonkeyQuest.MonkeyQuest.Logic.Door" Collapsed="true">
+    <Position X="3.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAAIAAAAAAABAIAAAEABAAAAAAAAAABAAA=</HashCode>
+      <FileName>MonkeyQuest\Logic\MonkeyQuestElements.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MonkeyQuest.MonkeyQuest.Logic.Stub" Collapsed="true">
+    <Position X="6" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MonkeyQuest\Logic\MonkeyQuestStubElements.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MonkeyQuest.MonkeyQuest.Logic.Tile" Collapsed="true">
+    <Position X="21.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAAADAAEAAwAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MonkeyQuest\Logic\Tile.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MonkeyQuest.MonkeyQuest.Logic.TileManager" Collapsed="true">
+    <Position X="26.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAACAAAAAAEAAAABAAAIAAAACAAAAA=</HashCode>
+      <FileName>MonkeyQuest\Logic\Tile.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MonkeyQuest.MonkeyQuest.Logic.XMLMap" Collapsed="true">
+    <Position X="35.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAAAAEAAACAAAAAAgBCAAAAAAAAAAABA=</HashCode>
+      <FileName>MonkeyQuest\Logic\XMLMap.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MonkeyQuest.MonkeyQuest.Logic.Map" Collapsed="true">
+    <Position X="26.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAEAEAIAAAAEAAAAAAAAAAAAAAAgAAAA=</HashCode>
+      <FileName>MonkeyQuest\Logic\XMLMap.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MonkeyQuest.MonkeyQuest.Logic.MapObject" Collapsed="true">
+    <Position X="1.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABgAAAAYAA=</HashCode>
+      <FileName>MonkeyQuest\Logic\XMLMap.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MonkeyQuest.MonkeyQuest.Logic.StaticMapObject" Collapsed="true">
+    <Position X="0.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAQAAAAgA=</HashCode>
+      <FileName>MonkeyQuest\Logic\XMLMap.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MonkeyQuest.MonkeyQuest.Logic.TileMapObject" Collapsed="true">
+    <Position X="2.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAABAAAAAQAAAQAAAAE=</HashCode>
+      <FileName>MonkeyQuest\Logic\XMLMap.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MonkeyQuest.MonkeyQuest.UI.MonkeyBoardUI" Collapsed="true">
+    <Position X="9.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAIAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>MonkeyQuest\UI\MonkeyBoardUI.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MonkeyQuest.MonkeyQuest.UI.MonkeyBoardUIWindow" Collapsed="true">
+    <Position X="28.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MonkeyQuest\UI\MonkeyBoardUIWindow.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MonkeyQuest.MonkeyQuest.UI.MonkeyMainBarUI" Collapsed="true">
+    <Position X="0.5" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAMCAAABABAAAAAAAEAIAABABAAAAAQAAA=</HashCode>
+      <FileName>MonkeyQuest\UI\MonkeyMainBarUI.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MonkeyQuest.MonkeyQuest.UI.MonkeyBlockUI" Collapsed="true">
+    <Position X="6" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MonkeyQuest\UI\MonkeyQuestElementsUI.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MonkeyQuest.MonkeyQuest.UI.CrateUI" Collapsed="true">
+    <Position X="8.25" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MonkeyQuest\UI\MonkeyQuestElementsUI.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MonkeyQuest.MonkeyQuest.UI.MonkeyUI" Collapsed="true">
+    <Position X="10.5" Y="16.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MonkeyQuest\UI\MonkeyQuestElementsUI.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MonkeyQuest.MonkeyQuest.UI.MonkeyBananaUI" Collapsed="true">
+    <Position X="19.5" Y="14.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MonkeyQuest\UI\MonkeyQuestElementsUI.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MonkeyQuest.MonkeyQuest.UI.TortoiseUI" Collapsed="true">
+    <Position X="21.75" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MonkeyQuest\UI\MonkeyQuestElementsUI.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MonkeyQuest.MonkeyQuest.UI.GagaUI" Collapsed="true">
+    <Position X="12.75" Y="16.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MonkeyQuest\UI\MonkeyQuestElementsUI.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MonkeyQuest.MonkeyQuest.UI.GhostUI" Collapsed="true">
+    <Position X="15" Y="16.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MonkeyQuest\UI\MonkeyQuestElementsUI.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MonkeyQuest.MonkeyQuest.UI.GoombaUI" Collapsed="true">
+    <Position X="17.25" Y="16.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MonkeyQuest\UI\MonkeyQuestElementsUI.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MonkeyQuest.MonkeyQuest.UI.StubUI" Collapsed="true">
+    <Position X="1.5" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MonkeyQuest\UI\MonkeyQuestStubElementsUI.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MonkeyQuest.MonkeyQuest.UI.TileUI" Collapsed="true">
+    <Position X="3.75" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MonkeyQuest\UI\TileUI.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MonkeyQuest.MonkeyQuest.UI.TileUIManager" Collapsed="true">
+    <Position X="28.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAACAAAAAQEAAAEBAAAAAIAAAAAAAA=</HashCode>
+      <FileName>MonkeyQuest\UI\TileUI.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MonkeyQuest.Properties.Resources" Collapsed="true">
+    <Position X="33.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>YSBAjAEAAAwAQBCAA4BDkAOQAQBBBICGogEEDgAABIw=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MonkeyQuest.Resources.Images" Collapsed="true">
+    <Position X="31.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ICAAAAEAAAAAQBAAAIBDAACQAAAAAACAggEEDgAABAQ=</HashCode>
+      <FileName>Resources\Images.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MonkeyQuest.Resources.Utility.ImageManager" Collapsed="true">
+    <Position X="30" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAABBAAAAIAAAAAAAAAAAAAAACAAAAAAAIAAIA=</HashCode>
+      <FileName>Resources\Utility\ImageManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="MonkeyQuest.Framework.Utility.Acceleration" Collapsed="true">
+    <Position X="26.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAABAAAAAAAA=</HashCode>
+      <FileName>Framework\Utility\Acceleration.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="MonkeyQuest.Framework.Utility.Position" Collapsed="true">
+    <Position X="28.25" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAICAAAACAADAgAAAAAAAEAAAABgAAAAYAA=</HashCode>
+      <FileName>Framework\Utility\Position.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="MonkeyQuest.Framework.Utility.RectangularMask" Collapsed="true">
+    <Position X="30" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAAAAgIAAAIAAAAAAAAAAAIAAgAAAAIAAQ=</HashCode>
+      <FileName>Framework\Utility\RectangularMask.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="MonkeyQuest.Framework.Utility.Velocity" Collapsed="true">
+    <Position X="33.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAABAAAAAAAA=</HashCode>
+      <FileName>Framework\Utility\Velocity.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Multimedia.TimerCaps" Collapsed="true">
+    <Position X="31.75" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAACAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Framework\Utility\Timer.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Interface Name="MonkeyQuest.Framework.Utility.IMovement" Collapsed="true">
+    <Position X="26.5" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Framework\Utility\IMovement.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="MonkeyQuest.Framework.Logic.CollisionStatus" Collapsed="true">
+    <Position X="28.25" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAAAAAAAAQAAAAAAAAAAAAAAACAAIgAAAA=</HashCode>
+      <FileName>Framework\Logic\Collidable.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="MonkeyQuest.Framework.Logic.CollidingMode" Collapsed="true">
+    <Position X="26.5" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAE=</HashCode>
+      <FileName>Framework\Logic\Collidable.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Multimedia.TimerMode" Collapsed="true">
+    <Position X="30" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Framework\Utility\Timer.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Delegate Name="MonkeyQuest.Framework.Utility.PositionChangedEventHandler" Collapsed="true">
+    <Position X="33.5" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAQACAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Framework\Utility\Delegates.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="MonkeyQuest.Framework.Utility.AfterMotionEventHandler" Collapsed="true">
+    <Position X="28.25" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAACAAAAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Framework\Utility\Delegates.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="MonkeyQuest.Framework.Utility.CollisionEventHandler" Collapsed="true">
+    <Position X="28.25" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Framework\Utility\Delegates.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="MonkeyQuest.Framework.Utility.BoardResizeEventHandler" Collapsed="true">
+    <Position X="33.5" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAQAAAgAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Framework\Utility\Delegates.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="MonkeyQuest.Framework.Utility.BoardTickEventHandler" Collapsed="true">
+    <Position X="35.25" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAACAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Framework\Utility\Delegates.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="MonkeyQuest.Framework.Utility.BoardKeyEventHandler" Collapsed="true">
+    <Position X="31.75" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAgAAAAAAAAAA=</HashCode>
+      <FileName>Framework\Utility\Delegates.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="MonkeyQuest.Framework.Utility.AddingPositionalEventHandler" Collapsed="true">
+    <Position X="26.5" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Framework\Utility\Delegates.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="MonkeyQuest.Framework.Utility.RemovingPositionalEventHandler" Collapsed="true">
+    <Position X="35.25" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Framework\Utility\Delegates.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="MonkeyQuest.Framework.Utility.TempRemovingPositionalEventHandler" Collapsed="true">
+    <Position X="28.25" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Framework\Utility\Delegates.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="MonkeyQuest.Framework.Utility.RestoringPositionalEventHandler" Collapsed="true">
+    <Position X="26.5" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Framework\Utility\Delegates.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="MonkeyQuest.Framework.Utility.BoardUIResizeEventHandler" Collapsed="true">
+    <Position X="26.5" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Framework\Utility\Delegates.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="MonkeyQuest.Framework.Utility.LogicUICreator&lt;TPositional&gt;" Collapsed="true">
+    <Position X="30" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAA=</HashCode>
+      <FileName>Framework\Utility\LogicUICreator.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="MonkeyQuest.MonkeyQuest.Logic.BananasEventHandler" Collapsed="true">
+    <Position X="30" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MonkeyQuest\Logic\MonkeyBoard.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="MonkeyQuest.MonkeyQuest.Logic.MonkeyLivesEventHandler" Collapsed="true">
+    <Position X="31.75" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAQAEAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MonkeyQuest\Logic\MonkeyBoard.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

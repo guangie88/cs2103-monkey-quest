@@ -1,0 +1,6 @@
+bin/
+obj/
+.vs/
+*.cs.orig
+*.csproj.*
+*.suo

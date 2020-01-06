@@ -1,0 +1,56 @@
+﻿<map rows="9" columns="16" time="120">
+  <static identifier="monkey" x="0" y="3" />
+  <static identifier="door" x="3" y="0" />
+
+  <tile type="banana" x="5" y="0" />
+  <tile type="banana" x="6" y="0" />
+  <tile type="banana" x="8" y="0" />
+  <tile type="banana" x="2" y="3" />
+  <tile type="banana" x="4" y="3" />
+  <tile type="banana" x="15" y="3" />
+  <tile type="banana" x="0" y="5" />
+  <tile type="banana" x="1" y="5" />
+  <tile type="banana" x="9" y="5" />
+  <tile type="banana" x="14" y="5" />
+  <tile type="banana" x="10" y="6" />
+  <tile type="banana" x="4" y="8" />
+
+  <tile type="crate" x="7" y="2" />
+  <tile type="crate" x="7" y="3" />
+  <tile type="crate" x="13" y="5" />
+  <tile type="crate" x="3" y="7" />
+  <tile type="crate" x="3" y="8" />
+
+  <tile type="mud" property="00010000" x="15" y="5" />
+  <tile type="mud" property="00101100" x="15" y="6" />
+  <tile type="mud" property="00110100" x="9" y="7" />
+  <tile type="mud" property="01100000" x="12" y="7" />
+
+  <tile type="grass" property="00110000" x="2" y="1" />
+  <tile type="grass" property="00100000" x="3" y="1" />
+  <tile type="grass" property="00100000" x="4" y="1" />
+  <tile type="grass" property="00100000" x="5" y="1" />
+  <tile type="grass" property="01100000" x="6" y="1" />
+  <tile type="grass" property="01110000" x="8" y="1" />
+
+  <tile type="grass" property="01100000" x="0" y="4" />
+  <tile type="grass" property="01110000" x="2" y="4" />
+  <tile type="grass" property="01110000" x="4" y="4" />
+  <tile type="grass" property="00110000" x="6" y="4" />
+  <tile type="grass" property="01100000" x="7" y="4" />
+  <tile type="grass" property="00010000" x="15" y="4" />
+
+  <tile type="grass" property="00100000" x="0" y="6" />
+  <tile type="grass" property="00100000" x="1" y="6" />
+  <tile type="grass" property="01100000" x="2" y="6" />
+  <tile type="grass" property="00110000" x="7" y="6" />
+  <tile type="grass" property="00100000" x="8" y="6" />
+  <tile type="grass" property="01000001" x="9" y="6" />
+  <tile type="grass" property="00010010" x="12" y="6" />
+  <tile type="grass" property="00100000" x="13" y="6" />
+  <tile type="grass" property="00100000" x="14" y="6" />
+
+  <tile type="grass" property="00100000" x="10" y="7" />
+  <tile type="grass" property="00100000" x="11" y="7" />
+
+</map>
