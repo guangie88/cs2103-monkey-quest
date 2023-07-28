@@ -4,12 +4,14 @@ My project team game project for NUS CS2103 for reminiscence!
 
 ## How to Build
 
-The original project requires .NET 4.8 target framework, and was tested to build
+The original project requires .NET 6.0 target framework, and was tested to build
 with VS2022. For reference, the original solution was VS2010 using .NET 4.0
-target framework.
+target framework, and was upgrade via Assistant Visual Studio extension in
+<https://devblogs.microsoft.com/dotnet/upgrade-assistant-now-in-visual-studio/>.
 
-You will need the .NET Framework 4.8 Developer Pack installed. For distribution,
-the binary will require the .NET Framework Runtime installed.
+You will need the .NET 6.0 Developer Pack installed. For distribution, the
+binary will require the .NET 6.0 Runtime installed, though it is also possible
+to distribute with the runtime included.
 
 Both the aforementioned Developer Pack and Runtime can be downloaded here:
 <https://dotnet.microsoft.com/en-us/download/visual-studio-sdks>
