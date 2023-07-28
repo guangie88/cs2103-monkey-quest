@@ -4,15 +4,14 @@ My project team game project for NUS CS2103 for reminiscence!
 
 ## How to Build
 
-You will need at least `VS2010` C# with at least a sufficiently new .NET
-Framework (I believe it should just need .NET 3.5?).
+The original project requires .NET 4.8 target framework, and was tested to build
+with VS2022. For reference, the original solution was VS2010 using .NET 4.0
+target framework.
 
 Change to `Release` mode for build to get a more optimized binary!
 
 Change the startup project to `MonkeyQuestMain` and run the project to run the
 game! Or you could just run the executable generated after the build.
-
-This was tried in VS2017 and still works to compile.
 
 ## Game Objective
 
