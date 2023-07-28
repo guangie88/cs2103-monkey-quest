@@ -27,8 +27,6 @@ namespace MonkeyQuest.Test
         private MonkeyBoardUI boardUI;
         private MonkeyMainBarUI mainBarUI;
 
-        private int currentLives = InitialLives;
-
         private int currentBoardIndex = 0;
         private bool isRepeating = false;
         private bool trig = false;

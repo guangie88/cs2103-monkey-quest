@@ -60,11 +60,6 @@ namespace MonkeyQuest.Framework.UI
         {
             Debug.WriteLine("Constructor called MovableAnimated");
 
-            if (boardUI != null)
-            {
-                //boardUI.RemovePosUI += RemoveSelf;
-            }
-
             Logic.Colliding += HandleCollision;
         }
 

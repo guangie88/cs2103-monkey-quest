@@ -3,12 +3,6 @@ using System.Collections.Generic;
 using System.Windows;
 using System.Windows.Threading;
 using System.Windows.Input;
-using System.Windows.Media;
-
-using Multimedia;
-
-using MonkeyQuest.Framework.Logic;
-using MonkeyQuest.Framework.Utility;
 
 using MonkeyQuest.MonkeyQuest.Logic;
 using MonkeyQuest.MonkeyQuest.UI;
@@ -18,14 +12,12 @@ public class MonkeyBoardPackage : ContentElement
     #region Data Fields
 
     public const int InitialLives = 3;
+    public const int MaxLives = 10;
 
     private List<string> mapPathList = new List<string>();
     private MonkeyBoard currentBoard;
     private MonkeyBoardUI boardUI;
     private MonkeyMainBarUI mainBarUI;
-
-    private int currentLives = InitialLives;
-
     private int currentBoardIndex = 0;
     private bool isRepeating = false;
 
@@ -116,6 +108,12 @@ public class MonkeyBoardPackage : ContentElement
         }
     }
 
+    private void AddLife(int count, int maxLives = MaxLives)
+    {
+        if (CurrentBoard.NumberOfLives + count <= maxLives)
+            CurrentBoard.SetNumberOfLives(CurrentBoard.NumberOfLives + count);
+    }
+
     protected void OnGameCompleted(MonkeyBoardGameoverEventArgs e)
     {
         if (GameCompleted != null)
@@ -126,6 +124,15 @@ public class MonkeyBoardPackage : ContentElement
     {
         if (GameoverWithNoLives != null)
             GameoverWithNoLives(this, e);
+    }
+
+    internal void AddLifeBinding(object sender, KeyEventArgs e)
+    {
+        Dispatcher.Invoke((Action)(() =>
+        {
+            if (e.Key == Key.OemPlus)
+                AddLife(1);
+        }));
     }
 
     internal void RestartKeyBinding(object sender, KeyEventArgs e)

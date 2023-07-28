@@ -1,13 +1,8 @@
 ﻿// Main Contributors: Weiguang
 
 using System;
-using System.Collections.Generic;
 using System.Windows;
-using System.Windows.Threading;
-using System.Windows.Input;
 using System.Windows.Media;
-
-using Multimedia;
 
 using MonkeyQuest.Framework.Logic;
 using MonkeyQuest.Framework.Utility;

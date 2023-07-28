@@ -88,7 +88,6 @@ namespace MonkeyQuest.Framework.UI
         #region Events
 
         public event BoardUIResizeEventHandler BoardUIResize;
-        public event RemovingPositionalEventHandler<TBoard> RemovePosUI;
 
         #endregion
 

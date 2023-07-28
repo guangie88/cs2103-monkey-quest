@@ -52,7 +52,6 @@ namespace MonkeyQuest.Framework.UI
             if (boardUI != null)
             {
                 boardUI.Board.BoardTick += PerformTween;
-                //boardUI.RemovePosUI += RemoveSelf;
             }            
         }
 

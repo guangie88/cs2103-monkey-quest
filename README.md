@@ -55,7 +55,7 @@ stage, the stage increases in difficulty.
 ## Game Movement Keys
 
 - `[LEFT]` and `[RIGHT]` buttons to move `Money`
-- `[SPACE]` to jump
+- `[SPACE]` to jump (alternatively `[LEFT SHIFT]` works too)
 - To jump wall, you need to cling onto a wall by holding `[LEFT]` on a left wall
   (`[RIGHT]` on a right wall), then jump `[SPACE]` to wall-jump. There are two
   kinds of wall jump
@@ -70,3 +70,8 @@ stage, the stage increases in difficulty.
 
 Also, there are some CHEAT CODE buttons to press that can be useful in your
 banana collecting adventure!
+
+### CHEAT CODE buttons
+
+- `[V]`/`[B]` to shoot rocket to the left/right (max rockets per restart: 3)
+- `[=]` (same button as `[+]`) to increase lives (max lives: 10)

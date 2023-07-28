@@ -1,20 +1,12 @@
 ﻿// Main Contributors: Frank
 
 using System;
-using System.Windows;
-using System.Windows.Media;
 using System.Windows.Controls;
-using System.Windows.Data;
 using System.Collections.Generic;
-
-using MonkeyQuest.Framework.Logic;
-using MonkeyQuest.Framework.Utility;
 using MonkeyQuest.Framework.Images;
 using MonkeyQuest.Framework.UI;
 
 using MonkeyQuest.MonkeyQuest.Logic;
-
-using MonkeyQuest.Resources;
 using MonkeyQuest.Resources.Utility;
 
 namespace MonkeyQuest.MonkeyQuest.UI

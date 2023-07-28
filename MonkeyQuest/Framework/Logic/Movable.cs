@@ -66,7 +66,7 @@ namespace MonkeyQuest.Framework.Logic
 
         #region Events
 
-        public virtual event CollidingEventHandler<TBoard> Colliding;
+        protected internal virtual event CollidingEventHandler<TBoard> Colliding;
         public event AfterMotionEventHandler<TBoard> AfterMotion;
 
         #endregion

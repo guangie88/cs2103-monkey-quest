@@ -45,7 +45,6 @@ namespace MonkeyQuest.Framework.UI
             if (boardUI != null)
             {
                 boardUI.Board.BoardKeyDown += PerformKey;
-                //boardUI.RemovePosUI += RemoveSelf;
             }            
         }
 

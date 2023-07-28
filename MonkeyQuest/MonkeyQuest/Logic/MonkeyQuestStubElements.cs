@@ -1,11 +1,4 @@
-﻿using System;
-using System.Windows.Input;
-using System.Diagnostics;
-using System.Media;
-using System.Collections.Generic;
-
-using MonkeyQuest.Framework.Logic;
-using MonkeyQuest.Framework.Utility;
+﻿using MonkeyQuest.Framework.Logic;
 
 namespace MonkeyQuest.MonkeyQuest.Logic
 {

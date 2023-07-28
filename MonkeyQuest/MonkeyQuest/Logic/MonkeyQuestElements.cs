@@ -2,7 +2,6 @@
 
 using System;
 using System.Windows.Input;
-using System.Diagnostics;
 using System.Media;
 using System.Collections.Generic;
 
@@ -183,7 +182,6 @@ namespace MonkeyQuest.MonkeyQuest.Logic
         private const int MoveInAirCooldownLimit = ReboundOffWall.StopLimit;
         private const int LeftWallJumpCooldownLimit = ReboundOffWall.StopLimit * 5;
         private const int RightWallJumpCooldownLimit = ReboundOffWall.StopLimit * 5;
-        private const int WallFrictionCooldownLimit = 55;
 
         private const double DecayFactorLateralWallJump = 0.65;
         private const double DecayFactorVerticalWallJump = 0.90;

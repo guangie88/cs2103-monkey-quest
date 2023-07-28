@@ -1,9 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-
-using MonkeyQuest.Framework.Logic;
+﻿using MonkeyQuest.Framework.Logic;
 using MonkeyQuest.Framework.Utility;
-using MonkeyQuest.Resources.Utility;
 
 namespace MonkeyQuest.MonkeyQuest.Logic
 {

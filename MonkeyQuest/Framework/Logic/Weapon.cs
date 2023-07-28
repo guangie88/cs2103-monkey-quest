@@ -42,7 +42,7 @@ namespace MonkeyQuest.Framework.Logic
 
         #region Events
 
-        public override event CollidingEventHandler<TBoard> Colliding;
+        protected internal override event CollidingEventHandler<TBoard> Colliding;
 
         #endregion
 

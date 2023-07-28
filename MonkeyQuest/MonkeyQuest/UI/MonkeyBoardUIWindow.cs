@@ -3,19 +3,13 @@
 using System;
 using System.Windows;
 using System.Windows.Controls;
-using System.Windows.Data;
 
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
-
-using MonkeyQuest.Framework.Logic;
-using MonkeyQuest.Framework.Utility;
-using MonkeyQuest.Framework.Images;
 using MonkeyQuest.Framework.UI;
 
 using MonkeyQuest.MonkeyQuest.Logic;
 using MonkeyQuest.Resources;
-using System.Windows.Input;
 
 namespace MonkeyQuest.MonkeyQuest.UI
 {
@@ -116,6 +110,7 @@ namespace MonkeyQuest.MonkeyQuest.UI
             {
                 ClearDisplay();
                 this.PreviewKeyDown -= BoardPackage.RestartKeyBinding;
+                this.PreviewKeyDown -= BoardPackage.AddLifeBinding;
                 BoardPackage = null;
             }
         }
@@ -126,6 +121,7 @@ namespace MonkeyQuest.MonkeyQuest.UI
             {
                 BoardPackage = boardPackage;
                 this.PreviewKeyDown += BoardPackage.RestartKeyBinding;
+                this.PreviewKeyDown += BoardPackage.AddLifeBinding;
                 SetupDisplay();
             }
         }

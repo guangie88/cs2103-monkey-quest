@@ -1,18 +1,6 @@
-﻿using System;
-using System.Windows;
-using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Media;
-using System.Collections.Generic;
-
-using MonkeyQuest.Framework.Logic;
-using MonkeyQuest.Framework.Utility;
-using MonkeyQuest.Framework.Images;
+﻿using System.Windows.Controls;
 using MonkeyQuest.Framework.UI;
-
-using MonkeyQuest.Resources;
 using MonkeyQuest.MonkeyQuest.Logic;
-using MonkeyQuest.Resources.Utility;
 
 namespace MonkeyQuest.MonkeyQuest.UI
 {
