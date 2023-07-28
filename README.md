@@ -8,10 +8,30 @@ The original project requires .NET 4.8 target framework, and was tested to build
 with VS2022. For reference, the original solution was VS2010 using .NET 4.0
 target framework.
 
+You will need the .NET Framework 4.8 Developer Pack installed. For distribution,
+the binary will require the .NET Framework Runtime installed.
+
+Both the aforementioned Developer Pack and Runtime can be downloaded here:
+<https://dotnet.microsoft.com/en-us/download/visual-studio-sdks>
+
+### Via VS Studio
+
 Change to `Release` mode for build to get a more optimized binary!
 
 Change the startup project to `MonkeyQuestMain` and run the project to run the
 game! Or you could just run the executable generated after the build.
+
+### Via Developer Command Prompt MSBuild
+
+Go the the repository root and run:
+
+```bash
+MSBuild MonkeyQuest.sln /property:Configuration=Release
+```
+
+This will generate binaries in `MonkeyQuestMain\bin\Release\`.
+
+Simply run `MonkeyQuestMain.exe` to start playing.
 
 ## Game Objective
 
