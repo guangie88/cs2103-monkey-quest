@@ -28,10 +28,11 @@ game! Or you could just run the executable generated after the build.
 Go the the repository root and run:
 
 ```bash
+MSBuild MonkeyQuest.sln /t:Restore
 MSBuild MonkeyQuest.sln /property:Configuration=Release
 ```
 
-This will generate binaries in `MonkeyQuestMain\bin\Release\`.
+This will generate binaries in `MonkeyQuestMain\bin\x64\Release\net6.0-windows\`.
 
 Simply run `MonkeyQuestMain.exe` to start playing.
 
